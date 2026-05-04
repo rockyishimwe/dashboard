@@ -29,10 +29,11 @@ const App = () => {
         </div>
         )}
         <div className={
-          activeMenu ? 'dark:bg-main-bg min-h-screen md:ml-72 w-full'
-          :'dark:bg-main-bg min-h-screen  w-full flex-2'
+          `dark:bg-main-bg bg-main-bg min-h-screen w-full ${activeMenu ?'md:ml':'flex-2'}`
         }>
+          <div className='fixed'>
 
+          </div>
         </div>
       </div>
       </BrowserRouter>
