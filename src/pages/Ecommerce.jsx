@@ -15,6 +15,7 @@ const DropDown = ({currentMode}) =>(
   </div>
 );
 const Ecommerce = () => {
+  const {currentColor,currentMode} = useStateContext(); 
   return (
     <div className='mt-24'>
       <div className='flex flex-wrap lg:flex-nowrap justify-center'>
@@ -25,11 +26,21 @@ const Ecommerce = () => {
               <p className='text-2xl'>$63,448.78</p>
             </div>
             <button type='button' style={{backgroundColor:'currentColor'}} className='text-2xl opacity-0.9 text-white hover:drop-shadow-xl rounded-full p-4'>
-
-            </button>
-
+              <BsCurrencyDollar/>
+            </button>     
           </div>
-
+          <div className='mt-6'>
+            <Button color="white" bgColor={currentColor} text="Download" borderRadius="10px"/>
+          </div>
+        </div>
+        <div className='flex m-3 flex-wrap justify-center gap-1 items-center'>
+          {earningData.map((item)=>(
+            <div key={item.title} className='bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56 p-4 pt-9 rounded-2xl'>
+              <button type='button' style={{color:item.iconColor,backgroundColor:item.iconBg}} className='text-2xl opacity-0.9 rounded-full p-4 hover:drop-shadow-xl'>
+                {item.icon}
+              </button>
+            </div>
+          ))}
         </div>
 
       </div>
