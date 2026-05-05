@@ -5,30 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f51871b-c7a4-4caa-a6eb-829ee86826b3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Chart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Chart.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Charts/LineChart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Charts/LineChart.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Charts/Pie.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Charts/Pie.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Charts/SparkLine.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Charts/SparkLine.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Charts/Stacked.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Charts/Stacked.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ChartsHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChartsHeader.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Notification.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Notification.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ThemeSettings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ThemeSettings.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UserProfile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserProfile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Calendar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Calendar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Customers.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Customers.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Ecommerce.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Ecommerce.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Editor.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Editor.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Employees.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Employees.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Kanban.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Kanban.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Orders.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Orders.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1777980554981</updated>
-      <workItem from="1777980556162" duration="755000" />
+      <workItem from="1777980556162" duration="1447000" />
     </task>
     <servers />
   </component>
