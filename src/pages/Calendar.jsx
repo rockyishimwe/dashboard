@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
+import {ScheduleComponent,ViewsDirective,ViewDirective,Day,Week,WorkWeek,Month,Agenda,Inject,Resize,DragAndDrop} from '@syncfusion/ej2-react-schedule';
+import {sheduleData} from '../data/dummy';
+import {Header} from '../components';
 
-const Calendar = () => {
-  return (
-    <div className="m-2 md:m-10 mt-24 p-2 md:p-10 bg-white rounded-3xl">
-      <h1>Calendar</h1>
-    </div>
-  );
-};
+//eslint-disable-next-line react/destructuring-assignment
 
-export default Calendar;
+const PropertyPane = (props) => <div className='mt-5'>{props.children}</div>;
+
+const Scheduler = () =>{
+  const [scheduleObj,setScheduleObj] = useState();
+}
+
+export default Scheduler;
