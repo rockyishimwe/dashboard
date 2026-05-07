@@ -23,12 +23,12 @@ const Ecommerce = () => {
     <div className="mt-24">
       <div className="flex flex-wrap lg:flex-nowrap justify-center ">
         <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg h-44 rounded-xl w-full lg:w-80 p-8 pt-9 m-3 relative overflow-hidden">
-      <img
-        src={welcomeBg}
-        alt=""
-        aria-hidden="true"
-        className="absolute inset-0 h-full w-full object-cover object-right"
-      />
+          <img
+            src={welcomeBg}
+            alt=""
+            aria-hidden="true"
+            className="absolute inset-0 h-full w-full object-cover object-right"
+          />
           <div className="relative z-10 flex justify-between items-center">
             <div>
               <p className="font-bold text-gray-400">Earnings</p>
