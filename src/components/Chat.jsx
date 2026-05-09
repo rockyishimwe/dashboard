@@ -17,6 +17,21 @@ const Chat = () => {
         <Button icon={<MdOutlineCancel/>} color="rgb(153,171,180)" bgHoverColor="light-gray"
         size="2xl" borderRadius="50%"/>
       </div>
+      <div className='mt-5'>
+        {chatData?.map((item,index)=>(
+          <div className="relative">
+              <img
+                className="rounded-full h-10 w-10"
+                src={item.image}
+                alt={item.message}
+              />
+              <span
+                style={{ background: item.dotColor }}
+                className="absolute inline-flex rounded-full h-2 w-2 right-0 -top-1"
+              />
+            </div>
+        ))}
+      </div>
     </div>
   );
 };
