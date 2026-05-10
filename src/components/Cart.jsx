@@ -4,6 +4,7 @@ import { AiOutlinePlus,AiOutlineMinus } from 'react-icons/ai';
 import { useStateContext } from '../contexts/ContextProvider';
 import { cartData } from '../data/dummy';
 import {Button} from '.';
+import { BulletTooltipSettings } from '@syncfusion/ej2-react-charts';
 
 const Cart = () => {
   const {currentColor} = useStateContext();
@@ -39,7 +40,12 @@ const Cart = () => {
         </div>
       </div>
       <div className='mt-5'>
-
+        <Button
+        color="white"
+        bgColor={currentColor}
+        text="Place Order"
+        borderRadius="10px"
+        width="full"/>
       </div>
     </div>
   );
