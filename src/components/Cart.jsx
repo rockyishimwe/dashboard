@@ -18,7 +18,8 @@ const Cart = () => {
           <div className='flex items-center leading-8 gap-5 border-b-1 border-color dark:border-gray-600 p-4'>
             <img src={item.image} alt="images" className='rounded-lg h-80 w-24' />
             <div>
-              
+              <p className='font-semibold'>{item.name}</p>
+              <p className='text-gray-600 dark:text-gray-400 text-sm font-semibold'>{item.category}</p>
             </div>
           </div>
         </div>
