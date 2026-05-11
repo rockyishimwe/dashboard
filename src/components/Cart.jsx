@@ -6,6 +6,7 @@ import { useStateContext } from '../contexts/ContextProvider';
 import { cartData } from '../data/dummy';
 import { Button } from '.';
 
+
 const Cart = () => {
   const { currentColor } = useStateContext();
 

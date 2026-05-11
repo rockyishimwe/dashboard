@@ -32,6 +32,6 @@ class SparkLine extends React.PureComponent {
       </SparklineComponent>
     );
   }
-}
+}  
 
 export default SparkLine;
