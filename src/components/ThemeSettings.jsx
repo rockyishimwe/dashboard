@@ -29,6 +29,12 @@ const ThemeSettings = () => {
             <label htmlFor="dark" className='ml-2 text-md cursor-pointer'>Dark</label>
           </div>
         </div>
+        <div className='p-4 border-t-1 border-color ml-4'>
+          <p className='font-semibold text-xl'>Theme Colors</p>
+          <div className='flex gap-3'>
+
+          </div>
+        </div>
       </div>
     </div>
   )
