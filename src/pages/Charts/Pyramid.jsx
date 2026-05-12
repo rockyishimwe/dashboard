@@ -11,7 +11,7 @@ const Pyramid = () => {
       <ChartsHeader category="Pyramid" title="Food comparison Chart"/>
       <div className='w-full'>
         <AccumulationChartComponent id='pyramid-chart' legendSettings={{background:'white'}} tooltip={{enable:true}} background={currentMode === 'Dark'? '#33373E' :'#fff'}>
-
+          <Inject services={[AccumulationDataLabel,AccumulationTooltip,PyramidSeries,AccumulationLegend,AccumulationSelection]}/>
         </AccumulationChartComponent>
       </div>
 
