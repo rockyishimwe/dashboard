@@ -10,7 +10,7 @@ const Pyramid = () => {
     <div className='m-4 md:m-10 mt-24 p-10 bg-white dark:bg-secondary-dark-bg rounded-3xl'>
       <ChartsHeader category="Pyramid" title="Food comparison Chart"/>
       <div className='w-full'>
-        <AccumulationChartComponent id='pyramid-chart' legendSettings={{background:'white'}}>
+        <AccumulationChartComponent id='pyramid-chart' legendSettings={{background:'white'}} tooltip={{enable:true}} background={currentMode === 'Dark'? '#33373E' :'#fff'}>
 
         </AccumulationChartComponent>
       </div>
