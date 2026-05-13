@@ -18,8 +18,8 @@ const Financial = () => {
     <div className='m-4 md:m-190 mt-24 p-10 bg-white dark:bg-secondary-dark-bg rounded-3xl'>
       <ChartsHeader category="Financial" title="AAPLE Historical"/>
       <div className='w-full'>
-        <ChartComponent id='charts' primaryXAxis={FinancialPrimaryXAxis} primaryYAxis={FinancialPrimaryYAxis}>
-
+        <ChartComponent id='charts' primaryXAxis={FinancialPrimaryXAxis} primaryYAxis={FinancialPrimaryYAxis} chartArea={{border:{width:0}}} tooltip={{enable:true,shared:true}} crosshair={{enable:true,lineType:'Vertical',line:{width:0}}} background={currentMode=== 'Dark'? '#33373E':'#fff' }>
+          <Inject services={[HiloSeries,Tooltip,DateTime,Logarithmic,Crosshair,Zoom]}/>
         </ChartComponent>
       </div>
     </div>
