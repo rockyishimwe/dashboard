@@ -1,5 +1,5 @@
 import React from 'react';
-import {ChatComponent,SeriesCollectionDirective,SeriesDirective,Inject,DateTime,Logarithmic,Zoom,Crosshair,Tooltip,HiloSeries} from '@syncfusion/ej2-react-charts';
+import {ChatComponent,SeriesCollectionDirective,SeriesDirective,Inject,DateTime,Logarithmic,Zoom,Crosshair,Tooltip,HiloSeries, ChartComponent} from '@syncfusion/ej2-react-charts';
 import { financialChartData,FinancialPrimaryXAxis,FinancialPrimaryYAxis } from '../../data/dummy';
 import {useStateContext} from '../../contexts/ContextProvider';
 import { ChartsHeader } from '../../components';
@@ -17,6 +17,11 @@ const Financial = () => {
   return (
     <div className='m-4 md:m-190 mt-24 p-10 bg-white dark:bg-secondary-dark-bg rounded-3xl'>
       <ChartsHeader category="Financial" title="AAPLE Historical"/>
+      <div className='w-full'>
+        <ChartComponent id='charts' primaryXAxis={FinancialPrimaryXAxis} primaryYAxis={FinancialPrimaryYAxis}>
+
+        </ChartComponent>
+      </div>
     </div>
   );
 };
