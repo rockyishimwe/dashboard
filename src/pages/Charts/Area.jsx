@@ -12,6 +12,7 @@ const Area = () => {
       <div className='w-full'>
         <ChartComponent id='charts' primaryXAxis={areaPrimaryXAxis} primaryYAxis={areaPrimaryYAxis} chartArea={{border:{width:0}}} background={currentMode ===  'Dark' ? '#33373E' :'#fff'} legendSettings={{background:'White'}}>
           <Inject services={[SplineAreaSeries,DateTime,Legend]}/>
+          {areaCustomSeries.map((item,index) =><SeriesDirective key={index} {...item}/>)}
         </ChartComponent>
       </div>
     </div>
