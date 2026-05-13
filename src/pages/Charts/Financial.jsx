@@ -5,16 +5,18 @@ import {useStateContext} from '../../contexts/ContextProvider';
 import { ChartsHeader } from '../../components';
 
 
+const date1 = new Date('2026,06,05');
 function filterValue(value){
   if(value.x>=date1){
-    return value.x ,value.high,value.low;
+    return value.x, value.high,value.low;
   }
 }
-const date1 = new Date('2026,06,05');
+const returnValue = financialChartData.filter(filterValue);
 const Financial = () => {
+  const {currentMode} = useStateContext();
   return (
-    <div className="m-2 md:m-10 mt-24 p-2 md:p-10 bg-white rounded-3xl">
-      <h1>Financial Chart</h1>
+    <div className='m-4 md:m-190 mt-24 p-10 bg-white dark:bg-secondary-dark-bg rounded-3xl'>
+      <ChartsHeader category="Financial" title="AAPLE Historical"/>
     </div>
   );
 };
