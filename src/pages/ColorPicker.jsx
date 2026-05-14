@@ -1,4 +1,6 @@
 import React from 'react';
+import {Header} from '../components';
+import {ColorPickerComponent} from '@syncfusion/ej2-react-inputs';
 
 const ColorPicker = () => {
   return (
