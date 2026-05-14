@@ -18,6 +18,10 @@ const ColorPicker = () => {
             <p className='text-2xl font-semibold mt-2 mb-4'>Inline Pallette</p>
             <CustomColorPicker id="inline-palette" mode="Palette"/>
           </div>
+          <div>
+            <p className='text-2xl font-semibold mt-2 mb-4'>Inline Picker</p>
+            <CustomColorPicker id="inline-picker" mode="Picker"/>
+          </div>
         </div>
       </div>
     </div>
