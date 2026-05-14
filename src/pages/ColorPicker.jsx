@@ -9,8 +9,17 @@ const CustomColorPicker = ({id,mode}) => <ColorPickerComponent id={id} mode={mod
 
 const ColorPicker = () => {
   return (
-    <div className="m-2 md:m-10 mt-24 p-2 md:p-10 bg-white rounded-3xl">
-      <h1>Color Picker</h1>
+    <div className='m-2 md:m-10 mt-24 p-2 md:m-10 mt-24 p-2 md:p-10 bg-white rounded-3xl'>
+      <Header category="App" title="Color picker"/>
+      <div className='text-center'>
+        <div id='preview'/>
+        <div className='flex justify-center items-center gap-20 flex-wrap'>
+          <div>
+            <p className='text-2xl font-semibold mt-2 mb-4'>Inline Pallette</p>
+            <CustomColorPicker id="inline-palette" mode="Palette"/>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
